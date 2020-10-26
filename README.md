@@ -1,3 +1,3 @@
-This is a minimal example of a book based on R Markdown and **bookdown** (https://github.com/rstudio/bookdown). Please see the page "[Get Started](https://bookdown.org/yihui/bookdown/get-started.html)" at https://bookdown.org/yihui/bookdown/ for how to compile this example into HTML. You may generate a copy of the book in `bookdown::pdf_book` format by calling `bookdown::render_book('index.Rmd', 'bookdown::pdf_book')`. More detailed instructions are available here https://bookdown.org/yihui/bookdown/build-the-book.html.
+This is a test to try to figure out why tibbles are showing up with all the weird question marks in bookdown. Is this because something graphics related is missing/not installed, or is it caused by code/structure of my specific bookdown? See what tibbles look like here doing same install steps
 
-You can find the preview of this example at https://bookdown.org/yihui/bookdown-demo/.
+
