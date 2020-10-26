@@ -20,7 +20,7 @@ jobs:
           restore-keys: ${{ runner.os }}-r-${{ matrix.config.r }}-3-
       - name: Install Packages
         run: |-
-          Rscript -e "install.packages(c('pins','tidyverse','DT','knitr'))"
+          Rscript -e "install.packages(c('bookdown','pins','tidyverse','DT','knitr'))"
       - name: Render Book
         run: |-
           Rscript -e "bookdown::render_book('index.Rmd')"
